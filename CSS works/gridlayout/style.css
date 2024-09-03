@@ -1,0 +1,25 @@
+
+.parent{
+    width: 75%;
+    height: 500px;
+    border: 1px solid black;
+    background-color: gray;
+    display: grid;
+    grid-template-columns:1fr 2fr 1fr ;
+    grid-template-rows: 1fr 2fr 1fr;
+    
+    
+    
+
+}
+.child{
+    background-color: gainsboro;
+    border: 1px solid burlywood;
+    
+
+}
+.header,.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}

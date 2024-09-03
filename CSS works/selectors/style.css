@@ -1,0 +1,16 @@
+
+body{
+
+    background-color: black;
+}
+
+#main{
+    color: aqua;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#second{
+
+    color: brown;
+}

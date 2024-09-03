@@ -1,0 +1,112 @@
+body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background-color:rgb(182, 182, 230);
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 500px;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.card-info h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-info p {
+    margin: 5px 0 0;
+    color: #888888;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body p {
+    margin: 10px 0;
+    color: #555555;
+}
+
+.card-stats {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.card-stats div {
+    text-align: center;
+}
+
+.card-stats h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-stats p {
+    margin: 5px 0 0;
+    color: #888888;
+    margin-left: 10px;
+}
+
+.card-actions {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: center;
+    margin-left: 2px;
+}
+
+.follow-btn, .profile-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.follow-btn {
+    background-color: #000000;
+    color: white;
+    
+}
+
+.profile-btn {
+    background-color: transparent;
+    color: #000000;
+    border: 1px solid #000000;
+    margin-left: 12px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border-radius: 50%;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+

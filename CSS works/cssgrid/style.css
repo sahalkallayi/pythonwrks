@@ -1,0 +1,31 @@
+
+.parent{
+
+    width: 75%;
+    height: 500px;
+    border: 1px solid black;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+    padding: 3px;
+    
+}
+
+.child{
+    background-color: blanchedalmond;
+    border: 1px solid burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
